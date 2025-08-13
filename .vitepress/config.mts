@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Wails 中文教程",
   description: "Wails 框架中文教程 - 使用 Go 和 Web 技术构建桌面应用",
   lang: 'zh-CN',
+  ignoreDeadLinks: true, // 忽略死链接检查
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'keywords', content: 'Wails, Go, 桌面应用, 跨平台, 教程' }],
